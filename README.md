@@ -1,5 +1,4 @@
-# Yasiu-pl
+# rocketwatch
 
-Home of my projects.
 
-Visit Yasiu.pl to learn more.
+Visit rocketwatch.yasiu.pl to learn more.
