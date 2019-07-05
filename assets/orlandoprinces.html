@@ -1,0 +1,25 @@
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+
+<body style="width:100%;height:100%;margin: unset;"><video style="width:100%;height:100%;" id="video" onclick="this.paused ? this.play() : this.pause();".></video></body>
+<script>
+    var request = new XMLHttpRequest();
+    request.open("GET", "http://tools.yasiu.pl/proxy/?csurl=https://ipcamlive.com/ajax/getcamerastreamstate.php?cameraalias=57546b7ea411b", false);
+    request.onreadystatechange = function(aEvt) {
+        if (request.readyState == 4) {
+            if (request.status == 200) {
+              var data = JSON.parse(request.responseText);
+                if (Hls.isSupported()) {
+                    var video = document.getElementById('video');
+                    var hls = new Hls();
+                    video.poster = data.details.address + "streams/" + data.details.streamid + "/snapshot.jpg"
+                    hls.loadSource(data.details.address + "streams/" + data.details.streamid + "/stream.m3u8");
+                    hls.attachMedia(video);
+                    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                        video.play();
+                    });
+                }
+            }
+        }
+    };
+    request.send(null)
+</script>

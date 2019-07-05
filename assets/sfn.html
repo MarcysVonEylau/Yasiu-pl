@@ -1,0 +1,14 @@
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+
+<body style="width:100%;height:100%;margin: unset;"><video style="width:100%;height:100%;" id="video" onclick="this.paused ? this.play() : this.pause();" .></video></body>
+<script>
+  if (Hls.isSupported()) {
+    var video = document.getElementById('video');
+    var hls = new Hls();
+    hls.loadSource("http://tools.yasiu.pl/proxy/?csurl=http://xspaceflightnowx.api.channel.livestream.com/3.0/playlist.m3u8");
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+      video.play();
+    });
+  }
+</script>

@@ -1,0 +1,177 @@
+{
+  "company": {
+    "spx": {
+      "logo": "",
+      "background": "https://c1.staticflickr.com/8/7540/28291786662_42b63a4f18_k.jpg",
+      "youtube": "UCtI0Hodo5o5dUb67FeUjDeA",
+      "reddit": "https://www.reddit.com/r/spacex",
+      "irc": "https://kiwiirc.com/client/irc.esper.net/?nick=Rocket%20Watch%20User%20%20%23?#spacex",
+      "twitter": ["https://twitter.com/rocket_watch/lists/spacex", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "ula": {
+      "logo": "",
+      "background": "http://www.space.com/images/i/000/032/273/original/delta-4-heavy-lift-off-1920.jpg",
+      "youtube": "UCnrGPRKAg1PgvuSHrRIl3jg",
+      "reddit": "https://www.reddit.com/r/ula",
+      "irc": "https://kiwiirc.com/client/irc.esper.net/?nick=Rocket%20Watch%20User%20%20%23?#ULAreddit",
+      "twitter": ["https://twitter.com/rocket_watch/lists/united-launch-alliance", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "bo": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCVxTHEKKLxNjGcvVaZindlg",
+      "reddit": "https://www.reddit.com/r/blueorigin",
+      "twitter": ["https://twitter.com/rocket_watch/lists/blue-origin", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "asa": {
+      "logo": "",
+      "background": "http://www.space.com/images/i/000/022/392/original/ariane-5-launch-1920.jpg",
+      "youtube": "UCLr1shBflPt0esLOrNFqAPA",
+      "reddit": "https://www.reddit.com/r/Arianespace",
+      "twitter": ["https://twitter.com/rocket_watch/lists/arianespace", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "esa": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCIBaDdAbGlFDeS33shmlD0A",
+      "reddit": "https://www.reddit.com/r/ESA",
+      "twitter": ["https://twitter.com/rocket_watch/lists/european-space-agency", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "jaxa": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCfMIdADo6FQayQCOkLYGhrQ",
+      "reddit": "https://www.reddit.com/r/jaxa",
+      "twitter": ["https://twitter.com/rocket_watch/lists/jaxa", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "nasa": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCLA_DiR1FfKNvjuUpBHmylQ",
+      "reddit": "https://www.reddit.com/r/ESA",
+      "twitter": ["https://twitter.com/rocket_watch/lists/nasa", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "oa": {
+      "logo": "",
+      "background": "http://www.defence24.pl/uploads/images/73f19d6731735193624653836210f561.jpg",
+      "youtube": "UCLr1shBflPt0esLOrNFqAPA",
+      "reddit": "https://www.reddit.com/r/OrbitalATK",
+      "twitter": ["https://twitter.com/rocket_watch/lists/orbital-atk", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "fka": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCOcpUgXosMCIlOsreUfNFiA",
+      "reddit": "https://www.reddit.com/r/Roscosmos",
+      "twitter": ["https://twitter.com/rocket_watch/lists/roscosmos", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "tsskb-progress": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCOcpUgXosMCIlOsreUfNFiA",
+      "reddit": "https://www.reddit.com/r/Roscosmos",
+      "twitter": ["https://twitter.com/rocket_watch/lists/roscosmos", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "ksrpsc": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCOcpUgXosMCIlOsreUfNFiA",
+      "reddit": "https://www.reddit.com/r/Roscosmos",
+      "twitter": ["https://twitter.com/rocket_watch/lists/roscosmos", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    },
+    "isro": {
+      "logo": "",
+      "background": "",
+      "youtube": "UCRyuZIT4T02fQcKiUIaF6Xg",
+      "reddit": "https://www.reddit.com/r/ISRO",
+      "twitter": ["https://twitter.com/isro", "https://twitter.com/rSpaceX/lists/spaceflight-journalists", "https://twitter.com/rocket_watch"]
+    }
+  },
+  "data": {
+    "api": {
+      "youtube": "AIzaSyCAjpWu-CJZnC-17fwF38L3PEqHb3j9P5I",
+      "maps": "AIzaSyAGMPC5MePAT4ZCLWHFY7HXvgLX4ykWibY"
+    },
+    "embed_blacklist": ["twitter.com", "youtube.com", "spacex.com"],
+    "audio": [{
+      "id": 16,
+      "name": "Kennedy Space Center",
+      "url": "http://relay.broadcastify.com/ksc.mp3"
+    }, {
+      "id": 16,
+      "name": "Port Canaveral [Range]",
+      "url": "http://relay.broadcastify.com/720162910.mp3"
+    }],
+    "video": [
+      {
+        "id": 18,
+        "name": "Port Of Los Angeles",
+        "url": "https://www.youtube.com/watch?v=-07c8BNYq2E"
+      }
+    ]
+  },
+  "custom": {
+    "Inmarsat-5 F4": [{
+        "type": "live_audio",
+        "name": "Webcast Audio Relay",
+        "url": "http://audiorelay.spacetechnology.net:2120/hosted"
+      },
+      {
+        "id": 17,
+        "type": "live_video",
+        "name": "SpaceFlightNow.com Live",
+        "url": "http://cdn.livestream.com/embed/spaceflightnow?layout=4&color=0x000000&autoPlay=true&mute=false&iconColorOver=0xe7e7e7&iconColor=0xcccccc&allowchat=true"
+      }
+    ],
+    "NROL-76": [{
+      "type": "button",
+      "name": "Fairing Recovery",
+      "url": "http://rocketwatch.yasiu.pl/?id=1036&r"
+    }, {
+      "type": "recovery_live",
+      "name": "ASDS \"Of Course I Still Love You\" Support Ship Location",
+      "url": "https://www.vesselfinder.com/aismap?zoom=9&names=true&mmsi=367017460&track=true&fleet=dabb73c2ac88d80f3bff7e985d83f5bc&fleet_hide_old_positions=false&clicktoact=false&store_pos=true&ra=rocketwatch.yasiu.pl"
+    }, {
+      "type": "recovery_video",
+      "name": "Surf Guru Port Canaveral entrance live camera",
+      "url": "https://www.surfguru.com/remote-surf-cams/visitspacecoast/cape-canaveral-jetty"
+    }, {
+      "type": "recovery_video",
+      "name": "orlandoprincess.com",
+      "url": "http://tools.yasiu.pl/proxy/?csurl=http%3A%2F%2Forlandoprincess.com"
+    }, {
+      "type": "recovery_video",
+      "name": "Surfline Cocoa Beach pier live camera",
+      "url": "http://e.cdn-surfline.com/syndication/embed/v1/player.html?id=4421"
+    }, {
+      "type": "recovery_video",
+      "name": "Two Palms beach live camera",
+      "url": "http://www.twopalms.com/"
+    }, {
+      "type": "recovery_audio",
+      "name": "Port Canaveral Marine",
+      "url": "http://relay.broadcastify.com/720162910.mp3"
+    }, {
+      "type": "live_live",
+      "name": "r/SpaceX Launch Party Thread",
+      "url": "http://reddit-stream.com/comments/68bn8y/"
+    }, {
+      "type": "live_video",
+      "name": "SpaceFlightNow.com Live Updates",
+      "url": "https://v.24liveblog.com/live/?id=1385880"
+    }, {
+      "type": "live_audio",
+      "name": "Hosted webcast audio relay",
+      "url": "http://audiorelay.spacetechnology.net:2120/hosted"
+    }],
+    "SES-10": [{
+      "type": "live_live",
+      "name": "SpaceFlightNow.com Live Updates",
+      "url": "https://v.24liveblog.com/live/?id=1381188"
+    }, {
+      "type": "recovery_live",
+      "name": "r/SpaceX Recovery Thread",
+      "url": "https://www.reddit.com/r/spacex/comments/634gmr/b1021ses10_recovery_thread/"
+    }]
+  }
+}

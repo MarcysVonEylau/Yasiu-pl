@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#303030">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://host.yasiu.pl/rocketwatch/favicon.ico" type="image/x-icon" />
+    <meta name="google-site-verification" content="3-zPXxJMdW80gic71JutGcmmuTMb-cRRSQcgI9cPA5M" />
+
+    <!-- for Google -->
+
+    <meta name="description" content="Watch Rocket Launches Live!" />
+    <meta name="keywords" content="Rocket Watch" />
+    <meta property="author" content="yasiu.pl" />
+
+    <!-- for Facebook -->
+    <meta property="fb:app_id" content="264009833956500" />
+    <meta property="og:title" content="Rocket Watch" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://rocketwatch.yasiu.pl" />
+    <meta property="og:image" content="http://host.yasiu.pl/rocketwatch/rocketwatch.png" />
+    <meta property="og:description" content="Watch Rocket Launches Live!" />
+
+
+    <!-- for Twitter -->
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Rocket Watch" />
+    <meta name="twitter:description" content="Watch Rocket Launches Live!" />
+    <meta property="og:image" content="http://host.yasiu.pl/rocketwatch/rocketwatch.png" />
+
+
+    <title>Rocket Watch</title>
+
+    <!-- CSS  -->
+
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//host.yasiu.pl/css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="//host.yasiu.pl/rocketwatch/v2/style.min.css" type="text/css" rel="stylesheet">
+
+    <script src="//host.yasiu.pl/js/jquery-3.1.1.min.js"></script>
+    <script src="//host.yasiu.pl/js/materialize.min.js"></script>
+    <script src="//host.yasiu.pl/js/twitter.js"></script>
+    <script src="//host.yasiu.pl/js/socialworker.min.js"></script>
+    <script src="//host.yasiu.pl/rocketwatch/v2/app.min.js"></script>
+
+
+</head>
+
+<body id="top" class="scrollspy">
+    <div class="background"></div>
+    <div class="body">
+        <!--Navigation-->
+        <header>
+            <div class="navbar">
+                <nav id="nav_f" role="navigation">
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <div class="container">
+                        <div class="nav-wrapper">
+                            <a href="?" id="logo-container" class="brand-logo" title="Rocket Watch is not over.">Rocket Watch</a>
+                            <ul class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="/?agency=spx">SpaceX</a>
+                                </li>
+                                <li>
+                                    <a href="/?agency=ula">ULA</a>
+                                </li>
+                                <li>
+                                    <a href="/?agency=asa">Ariane</a>
+                                </li>
+                                <li>
+                                    <a href="/?agency=osc">Orbital ATK</a>
+                                </li>
+                                <li>
+                                    <a href="/?agencies">More</a>
+                                </li>
+                            </ul>
+
+                            <ul id="slide-out" class="side-nav">
+                                <li>
+                                    <a href="/?agency=spx">SpaceX</a>
+                                </li>
+                                <li>
+                                    <a href="/?agency=ula">United Launch Aliance</a>
+                                </li>
+                                <li>
+                                    <a href="/?agency=asa">Ariane</a>
+                                </li>
+                                <li>
+                                    <a href="/?agency=osc">Orbital ATK</a>
+                                </li>
+                                <li>
+                                    <a href="/?agencies">More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div id="loading" class="preloader-wrapper big active">
+                <div class="spinner-layer">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <a id="loading_message">Loading...</a>
+            </div>
+            <noscript><h1 class="white-text">Your browser does not support JavaScript!</h1></noscript>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <div class="row">
+                <div class="col s12 m10 offset-m1 l8 offset-l2">
+                    <div class="center-align card-panel row">
+                        <div class="col s12 m4">
+                            <p>Nothing to watch? Check these out:</p>
+                            <a href="https://www.reddit.com/r/spacex/">r/SpaceX Subreddit </a></br>
+                            <a href="https://www.reddit.com/r/ULA/">r/ULA Subreddit</a></br>
+                            <a href="http://www.nasaspaceflight.com/">Nasa Space Flight</a></br>
+                            <a href="http://www.flightclub.io">Flight Club Launch Simulator</a></br>
+                        </div>
+                        <div class="col s12 m4">
+                            <p>Rocket Watch by <a href="http://www.yasiu.pl">yasiu.pl</a></p>
+                            <div class="block" style="">
+                                <p>Subscribe to my channel:</p>
+                                <div class="youtube-button"></div>
+                            </div>
+                            <div class="block">
+                                <p>Like & Share:</p>
+                                <div class="facebook-button"></div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4" style="max-height: 192px;overflow:hidden">
+                            <div class="adcontainer"></div>
+                            <img src="http://analytics.yasiu.pl/beacon" width="0" height="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
